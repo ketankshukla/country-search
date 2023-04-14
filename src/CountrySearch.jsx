@@ -38,7 +38,7 @@ const CountrySearch = () => {
   return (
     <div className="wrapper">
       <div className="container">
-        <h1>Country Search</h1>
+        <h2>Country Search</h2>
         <div className="search-form">
           <div className="input-container">
             <input
