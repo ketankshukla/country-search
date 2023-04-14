@@ -41,6 +41,10 @@ const CountryDetails = ({ countryData }) => {
           <td>{countryData.population.toLocaleString()}</td>
         </tr>
         <tr>
+          <th>Borders</th>
+          <td>{countryData.borders.join(", ")}</td>
+        </tr>
+        <tr>
           <th>Area (sq. km)</th>
           <td>{countryData.area.toLocaleString()}</td>
         </tr>
